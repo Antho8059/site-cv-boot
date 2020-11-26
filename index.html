@@ -9,6 +9,100 @@
     <title>CV Anthony Hecquet</title>
 </head>
 <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <a class="navbar-brand mb-0 h1" href="index.html">Anthony Hecquet</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#apropos">À propos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#competences">Mes compétences</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Me contacter</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>    
+    <main class="container mb-4">
+      <section id="apropos" class="row no-gutters">
+        <article>
+          <h2 class="text-center">Qui suis-je ?</h2>
+    			<p><img class="float-left img-thumbnail mr-3" src="./img/photo.png" alt="Anthony Hecquet">
+          Suite à une carrière réussie dans le commerce en tant que responsable de magasin dans les jeux vidéos, je me reconvertis comme développeur d'applications mobiles & web,environnement qui me passionne également.</p>
+          <p><strong>Développeur web junior</strong>, passionné par les nouvelles technologies, je vous invite à découvrir mes services et mes différentes réalisations.</p>
+          <p>J'ai suivi une formation de développeur web et mobile chez Ifocop à Lille, qui m'a permis de maitriser les technologies modernes.</p>
+    			<p>Je suis intéressé par toute proposition de collaboration dans le secteur du <strong>développement web</strong>.</p>
+    			<p>Si vous souhaitez en savoir plus sur moi ou pour toute demande, n’hésitez pas à me <a href="#contact">contacter</a>.</p>
+        </article>
+      </section>
+      <section id="competences">
+        <h2 class="text-center">Mes compétences</h2>
+        <div class="progress">
+          <div class="progress-bar bg-success" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">HTML</div>
+        </div>
+        <div class="progress">
+          <div class="progress-bar bg-info" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">CSS</div>
+        </div>
+        <div class="progress">
+          <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Javascript</div>
+        </div>
+        <div class="progress">
+          <div class="progress-bar bg-danger" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">React</div>
+        </div>
+      </section>
+      <section id="contact">
+        <h2 class="text-center">Me contacter</h2>
+        <div class="row">
+          <article class="col-lg-4">
+            <h3>Mes coordonnées</h3>
+            <address>
+              <i class="fas fa-map-marker"></i> 20 rue du parc 59110 La Madeleine<br>
+              <i class="fas fa-mobile-alt"></i> <a href="tel:+33627010395">06 27 01 03 95</a><br>
+              <i class="far fa-envelope"></i><a href="mailto:hecquet.anthony.pro@gmail.com"> hecquet.anthony.pro@gmail.com</a><br>
+              <i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/anthony-hecquet-8545621b2">https://www.linkedin.com/in/anthony-hecquet-8545621b2"</a>
+            </address>
+          </article>
+          <div class="col-lg-8">
+            <h3>Formulaire de contact</h3>
+            <p>Pour m'envoyer un message, merci de remplir le formulaire ci-dessous.</p>
+        		<form class="col-lg-8" action="index.html" method="post">
+        			<div class="form-row">
+        				<div class="col-sm-6 mb-2">
+        					<input type="text" class="form-control" name="nom" placeholder="Votre nom" required>
+        				</div>
+        				<div class="col-sm-6 mb-2">
+        					<input type="text" class="form-control" name="prenom" placeholder="Votre prénom" required>
+        				</div>
+        			</div>
+        			<div class="form-row">
+        				<div class="col-sm-6 mb-2">
+        					<input type="email" name="email" class="form-control" placeholder="Votre email" required>
+        				</div>
+        				<div class="col-sm-6 mb-2">
+        					<input type="tel" name="telephone" class="form-control" placeholder="Votre numéro de téléphone" required>
+        				</div>
+        			</div>
+        			<div class="form-row mb-2">
+        				<textarea rows="3" cols="50" class="form-control" placeholder="Votre message"></textarea>
+        			</div>
+        			<div class="text-center">
+        				<button type="submit" class="btn btn-primary btn-block">Envoyer</button>
+        			</div>
+        		</form>
+          </div>
+        </div>
+      </section>
+    </main>
+  	<footer class="bg-primary text-white p-3">
+      <p class="text-center">&copy; Réalisé par <a class="text-white" href="https://www.consultantweb.eu" target="_blank">Anthony Hecquet</a></p>
+    </footer>
   <script src="js/jquery-3.5.1.slim.min.js"></script>
   <script src="js/bootstrap.min.js"></script>  
 </body>
